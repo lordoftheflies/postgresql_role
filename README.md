@@ -1,7 +1,7 @@
 Role Name
 ========
 
-mysql
+postgresql
 
 Example Playbook
 -------------------------
