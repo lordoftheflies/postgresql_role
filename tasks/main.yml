@@ -1,0 +1,10 @@
+---
+# tasks file for nginx
+- name: Install postgresql
+  apt: "name='postgresql' state=present force=yes"
+
+- name: Install postgresql-contrib
+  apt: "name='postgresql-contrib' state=present force=yes"
+
+- name: start postgresql
+  service: "name=postgresql state=started"
