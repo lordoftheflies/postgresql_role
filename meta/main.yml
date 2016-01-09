@@ -15,5 +15,6 @@ galaxy_info:
   - database
   - database:sql
   - web
+  - postgresql
 
 dependencies: []
